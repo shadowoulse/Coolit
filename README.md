@@ -25,7 +25,7 @@ A GUI application to control CPU and GPU fan speeds on MSI laptops running Linux
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/coolit.git
+git clone https://github.com/shadowoulse827/Coolit.git
 cd coolit
 ```
 
