@@ -1,0 +1,29 @@
+# Cool It Configuration
+# Adjust these paths based on your system
+
+[Paths]
+# CPU temperature and PWM control paths
+# Check with: ls /sys/class/hwmon/
+CPU_PWM_PATH = /sys/class/hwmon/hwmon4
+CPU_TEMP_PATH = /sys/class/hwmon/hwmon4/temp1_input
+
+# Alternative paths to try
+FALLBACK_PATHS = /sys/class/hwmon/hwmon0,/sys/class/hwmon/hwmon1,/sys/class/hwmon/hwmon2
+
+[Settings]
+# Update interval in milliseconds
+UPDATE_INTERVAL = 2000
+
+# Default theme
+DEFAULT_THEME = Dark
+
+# Temperature display unit (C or F)
+TEMP_UNIT = C
+
+[Safety]
+# Maximum safe temperatures (°C)
+MAX_GPU_TEMP = 85
+MAX_CPU_TEMP = 80
+
+# Enable temperature warnings
+ENABLE_WARNINGS = true
