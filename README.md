@@ -1,6 +1,7 @@
 # Cool It - Linux Fan Control for MSI Laptops (Linux)
 
-A GUI application to control CPU and GPU fan speeds on MSI laptops running Linux.
+A GUI application to control CPU and GPU fan speeds on MSI laptops running Linux. 
+My simple replacement for MSI Centers "User Scenario" being unavaible when switched from Windows to Linux.
 
 ⚠️ **SECURITY WARNING**: This application requires root privileges to control hardware. Review the code before running.
 
