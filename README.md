@@ -1,4 +1,4 @@
-# Cool It - Linux Fan Control for MSI Laptops
+# Cool It - Linux Fan Control for MSI Laptops (Linux)
 
 A GUI application to control CPU and GPU fan speeds on MSI laptops running Linux.
 
